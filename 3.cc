@@ -3,7 +3,7 @@ using namespace std;
 
 bool isPrime(int a)
 {
-    for (int i = 3;i<a; i+=2)
+    for (int i = 3;i*i<a; i+=2)
      {
          if(a%i==0)
             return false;
