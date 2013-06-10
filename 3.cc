@@ -5,7 +5,7 @@ bool isPrime(int a)
 {
     for (int i = 3;i*i<a; i+=2)
      {
-         if(a%i==0)
+         if(a%i==0 && a!=i)
             return false;
      }
      return true;
